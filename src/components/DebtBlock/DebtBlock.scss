@@ -1,0 +1,19 @@
+$block: '.debt-block';
+
+#{$block} {
+    background-color: white;
+    border-radius: 5%;
+    --g-user-name-font-size: 20px;
+    padding-inline: 2%;
+    padding-bottom: 2%;
+    width: 30%;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__debt {
+        margin-top: 23px;
+    }
+}

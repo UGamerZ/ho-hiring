@@ -1,0 +1,23 @@
+$block: '.line-chart-block';
+
+#{$block} {
+    padding-inline: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 5%;
+    
+    &__tab {
+        transition: border-color 0.2s ease-out;
+    }
+
+    &__outside-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__chart{
+        margin-top: 2%;
+    }
+}

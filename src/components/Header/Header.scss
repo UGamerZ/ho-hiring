@@ -1,0 +1,18 @@
+@use '../../styles/variables.scss' as variables;
+
+$block: '.header';
+
+#{$block} {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+    &__button-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__tab {
+        transition: border-color 0.2s ease-out;
+    }
+}
