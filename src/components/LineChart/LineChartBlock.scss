@@ -10,11 +10,13 @@ $block: '.line-chart-block';
     
     &__tab {
         transition: border-color 0.2s ease-out;
+        overflow: auto;
     }
 
     &__outside-container {
         display: flex;
         justify-content: space-between;
+        overflow: auto;
     }
 
     &__chart{

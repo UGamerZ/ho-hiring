@@ -1,5 +1,3 @@
-@use '../../styles/variables.scss' as variables;
-
 $block: '.header';
 
 #{$block} {
@@ -14,5 +12,6 @@ $block: '.header';
 
     &__tab {
         transition: border-color 0.2s ease-out;
+        overflow: auto;
     }
 }

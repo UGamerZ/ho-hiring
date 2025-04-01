@@ -17,6 +17,7 @@ $block: '.division-button-list';
         align-items: center;
         transition: 0.2s ease-out;
         width: 25%;
+        overflow: auto;
     }
 
     &__division-button:hover {
